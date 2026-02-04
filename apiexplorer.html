@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="apiexplorer.js" defer></script>
+    <link rel="stylesheet" href="fdxn.css">
+</head>
+
+<body>
+    <h1>API Explorer</h1>
+
+    <div id="postList"></div>
+
+    <div id=sendInfo>
+        <p>
+        <form action="/submit" method="POST" enctype="text/plain">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br><br>
+
+            <label for="body">Body:</label><br>
+            <textarea id="body" name="body" rows="5" cols="200"></textarea><br><br>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy;2026 <b>Lindsay Webb</b>. <i>All rights reserved.</i></p>
+    </footer>
+</body>
+
+</html>

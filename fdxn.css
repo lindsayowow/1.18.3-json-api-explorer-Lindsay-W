@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://marketplace.canva.com/EAFK93mVurI/1/0/1600w/canva-colorful-illustration-galaxy-desktop-wallpaper-XY3nugZSkII.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Asimovian", sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+}
+#questionText {
+    background: linear-gradient(160deg, rgb(224, 159, 125), rgb(239, 93, 96));
+    border: whitesmoke dotted;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(218, 214, 214, 0.3);
+    color: rgb(49, 24, 71);
+    font-family: "Iceland", sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+#questionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.answerBtn{
+    background: linear-gradient(135deg, rgb(239, 93, 96), rgb(236, 64, 103));
+    border-radius: 25%;
+    color: rgb(49, 24, 71);
+    font-family: "Iceland", sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.answerBtn:hover {
+    box-shadow: 0 10px 30px rgba(218, 214, 214, 0.3);
+}
+#listedAnswers {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Iceland", sans-serif;
+}
+#nextButton {
+    align-self: flex-end;
+    background: linear-gradient(135deg, rgb(236, 64, 103), rgb(160, 26, 125));
+    border-radius: 25px;
+    border: 2px solid whitesmoke;
+    color: rgb(49, 24, 71);
+    font-family: "Asimovian", sans-serif;
+    padding: 10px 20px;
+    width: 150px;
+}
+#nextButton:hover {
+    box-shadow: 0 10px 30px rgba(218, 214, 214, 0.479);
+}
+.feedback {
+    color: whitesmoke;
+    font-style: oblique;
+}
