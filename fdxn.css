@@ -17,6 +17,10 @@ h1 {
     color: whitesmoke;
 }
 
+form div {
+    margin-bottom: 20px;
+}
+
 button {
     align-self: flex-end;
     background: linear-gradient(135deg, rgb(236, 64, 103), rgb(160, 26, 125));
@@ -31,6 +35,23 @@ button:hover {
     box-shadow: 0 10px 30px rgba(218, 214, 214, 0.479);
 }
 
-.titleInput {
-    padding: 20 px 20 px;
+#titleInput {
+    padding: 20px;
+}
+
+#bodyInput {
+    padding: 20px;
+}
+
+#postList li {
+    margin-bottom: 1rem;   /* adds clean spacing between Title and Body */
+}
+
+label {
+    display: block;        /* moves label above the input */
+    font-weight: bold;     /* makes it bold */
+    font-size: 20px;
+    color: yellow;
+    text-align: center;    /* centers the text */
+    margin-bottom: 8px;    /* adds space between label and input */
 }
