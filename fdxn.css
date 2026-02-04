@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 75vh;
+    color: white;
+    text-align: center;
 }
 h1 {
     display: flex;
@@ -14,54 +16,21 @@ h1 {
     font-size: 35px;
     color: whitesmoke;
 }
-#questionText {
-    background: linear-gradient(160deg, rgb(224, 159, 125), rgb(239, 93, 96));
-    border: whitesmoke dotted;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(218, 214, 214, 0.3);
-    color: rgb(49, 24, 71);
-    font-family: "Iceland", sans-serif;
-    font-size: 25px;
-    padding: 30px;
-    width: 100%;
-    max-width: 500px;
-}
-#questionBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.answerBtn{
-    background: linear-gradient(135deg, rgb(239, 93, 96), rgb(236, 64, 103));
-    border-radius: 25%;
-    color: rgb(49, 24, 71);
-    font-family: "Iceland", sans-serif;
-    font-size: 18px;
-    margin: 10px 0;
-    padding: 10px;
-}
-.answerBtn:hover {
-    box-shadow: 0 10px 30px rgba(218, 214, 214, 0.3);
-}
-#listedAnswers {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: "Iceland", sans-serif;
-}
-#nextButton {
+
+button {
     align-self: flex-end;
     background: linear-gradient(135deg, rgb(236, 64, 103), rgb(160, 26, 125));
     border-radius: 25px;
     border: 2px solid whitesmoke;
     color: rgb(49, 24, 71);
     font-family: "Asimovian", sans-serif;
-    padding: 10px 20px;
+    padding: 20px 20px;
     width: 150px;
 }
-#nextButton:hover {
+button:hover {
     box-shadow: 0 10px 30px rgba(218, 214, 214, 0.479);
 }
-.feedback {
-    color: whitesmoke;
-    font-style: oblique;
+
+.titleInput {
+    padding: 20 px 20 px;
 }

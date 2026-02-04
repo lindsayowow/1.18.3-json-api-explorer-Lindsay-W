@@ -12,25 +12,25 @@
     
     <section>
         <h2>Create New Post</h2>
-        <form id="postForm">
+        <form id="postForm" action="/submit" method="POST" enctype="text/plain">
             <div>
                 <label for="titleInput">Title:</label>
                 <input type="text" id="titleInput" name="title" required>
-            </div>
+            </div><br>
             <div>
                 <label for="bodyInput">Body:</label>
                 <textarea id="bodyInput" name="body" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Post</button>
+            </div><br>
+            <button type="submit" id="submitButton">Submit Post</button>
         </form>
         <div id="formError"></div>
         <div id="formSuccess"></div>
     </section>
 
     <section>
-        <h2>Fetch Random Posts</h2>
-        <button id="fetchButton">Fetch Posts</button>
-        <div id="error"></div>
+        <h2>Fetch Random Post</h2>
+        <button id="fetchButton">Fetch Posts</button><br>
+        <div id="errorMessage"></div><br>
         <div id="postList"></div>
     </section>
 
